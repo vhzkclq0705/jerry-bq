@@ -1,0 +1,19 @@
+[project]
+name = "jerry-bq"
+version = "0.1.0"
+description = "Jerry`s BigQuery load with Airflow"
+authors = [
+    {name = "vhzkclq0705", email = "vhzkclq0705@naver.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
