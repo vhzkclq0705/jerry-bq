@@ -58,7 +58,7 @@ with DAG(
         bash_command="""
         bq load \
         --source_format=PARQUET \
-        temp.t{{ ds_nodash }} \
+        load.wiki \
         'gs://jerry-wiki-bucket/wiki/parquet/ko/date={{ ds }}/*.parquet'
         """
     )
